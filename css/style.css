@@ -1,4 +1,4 @@
-body {
+body{
     background-color: #BAFBE5;
     color: #367A64;
     font-family:Roboto;
@@ -18,7 +18,7 @@ font-size:200%
 
 }
 
-#hero {
+#hero, footer {
 border: 3px solid #75817D;
 text-align: center;
 background-color: #58C7A2;
