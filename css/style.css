@@ -50,7 +50,15 @@ border: 4px solid #367A64;
 }
 
 #gallery img{
-    
+
 max-width: 100%;
+
+}
+
+div {
+    background-color: #75817D;
+    border: 2px solid #367A64;
+    color: #BAFBE5;
+    font-family:"Open Sans";
 
 }
