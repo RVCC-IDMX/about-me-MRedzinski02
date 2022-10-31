@@ -100,3 +100,15 @@ grid-column: 1/-1;
 
 }
 @media screen and (min-width: 60em);
+
+#video {
+
+    border: 4px solid #367A64;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    margin-bottom: 80px;
+    font-size: 25px;
+
+}
