@@ -118,6 +118,66 @@
 
 </article>
 
+<section id = "contact">
+
+    <h2>Contact Us</h2>
+
+    <form id = "contactform" name = "contactform" method = "post" data-netlify = "true">
+
+        <fieldset>
+
+                <legend>Contact Form</legend>
+
+            <div id="formelements">
+                <!-- Name -->
+                <label for="name">Name (Required)</label>
+                <input type="text" id = "name" name = "name" required>
+                <!-- eMail -->
+                <label for="email">Email (Required)</label>
+                <input type="text" id = "email" name = "email" required>
+                <!-- Phone -->
+                <label for="phone">Phone (Optional)</label>
+                <input type="text" id = "phone" name = "phone">
+                <!-- Phone Type -->
+                <label for="phonetype">Phone Type (Optional)</label>
+                <select id = "phonetype">
+                    <option value = "" selected>Select Phone Type...</option>
+                    <option value = "mobile">Mobile</option>
+                    <option value = "work">Work</option>
+                    <option value = "home">Home</option>
+                    <option value = "prison">Prison (Recommended)</option>
+                </select>
+                <!-- Comment -->
+                <label for = "comment">Leave a Comment! (Optional)</label>
+                <textarea id = "comment" rows = "10"></textarea>
+            
+            
+                <!-- Reply -->
+                <fieldset>
+                    <legend>Would you like a reply? Note: We are not responsible for any potential threats, remarks, or insults directed towards you</legend>
+
+                    <ul>
+
+                            <li>
+                                <input type="radio" id="messageyes" name="reply">
+                                <label for="messageyes">Yes, leave a reply!</label></li>
+                            <li>
+                                <input type="radio" id="messageno" name="reply">
+                                <label for="messageno"></label> NO!!!!!!!!!!</li>
+
+                    </ul>
+                </fieldset>
+
+                <!-- Submit -->
+                <button type="submit">Submit</button>
+            </div>
+
+        </fieldset>
+
+    </form>
+
+</section>
+
 <footer>
 
     ©2022- Matthew Redzinski
