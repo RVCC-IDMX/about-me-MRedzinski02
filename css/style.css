@@ -116,5 +116,57 @@ grid-column: 1/-1;
 #formelements {
 
     display:grid;
+    row-gap: 10px;
+
+}
+
+#contact {
+    padding: 5px;
+    max-width:600px;
+    margin: 10px auto;
+}
+
+fieldset {
+
+border: 6px solid azure;
+margin-top: 5px;
+margin-bottom: 5px;
+
+}
+
+legend {
+
+background-color: azure;
+color: black;
+
+}
+
+#contact input, #contact textarea, #contact select, #contact button {
+
+    padding: 3px;
+    font-size: 10px;
+
+}
+
+#contact ul {
+
+list-style:none;
+padding:0px;
+
+}
+
+#contact li {
+
+margin: 4px;
+
+}
+
+#contact button {
+
+    background-color: azure;
+    color: black;
+    justify-self: center;
+    max-width: 550px;
+    width: 500px;
 
 }
