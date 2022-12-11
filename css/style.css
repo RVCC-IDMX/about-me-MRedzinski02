@@ -47,7 +47,7 @@ font-size: 22px;
 
 #gallery {
 
-border: 4px solid #367A64; 
+border: 2px solid #367A64; 
 }
 
 #gallery img{
@@ -62,13 +62,12 @@ div {
     color: #BAFBE5;
     font-family:"Open Sans";
     max-width:100%;
-    columns: 40rem;
+    columns: 10rem;
 }
 
 figure {
 
-    display:grid;
-    grid-template-columns: 2fr 1fr;
+    text-align: center;
 
 }
 figcaption {
@@ -84,6 +83,12 @@ font-size: 25px;
 
     max-width:100%;
     columns: 40rem;
+
+}
+
+#gallery img:hover{
+
+    filter: drop-shadow(16px 16px 20px black);
 
 }
 
