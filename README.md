@@ -27,7 +27,13 @@ Overall, there's a few key things I learned about web page development throughou
 # Final, Honest Thoughts
 **As I kept adding to my About Me page over the course of the semester,** I began to become more and more, for lack of a better term, paranoid of making sure I left no mistakes in my code. It was kinda like I was 50 turns deep in a Jenga game, and I was really trying my best not to topple it all over by misunderstanding a certain assignment or line of code. There was a point in the class where I actually somehow missed an assignment because I had food poisoning that week, and I actually continued onto the modules for the following weeks without realizing I missed a whole bunch of code from that week of assignments (I believe it was the About Me for adding HTML and images). I think I did a decent job of working past it and making up what I missed, but since then I've been super cautious to not miss any code or cut any corners, because those small, seemingly trivial errors add up eventually. I'll find out that a piece of code in my css isn't working and think that I'll never find out why- *What if it's because of an error I made a week ago? If I couldn't find it then, how will I find it now?* It became pretty stressful, especially while juggling all my other classes. The first few weeks of the course, I was having fun messing around with different options and seeing what x, y or z would do to my website, and it was a fun adventure in new territory- In the more recent weeks, it's started to become much more like an actual class, where I'm crunched for time and need to find time to work on it in-between classes, work, and other parts of my life. I hope that in the future, I'll be able to revisit web page development on my own time, so I can get that feeling of fun and experimentation back, without having to fear deadlines. 
 # Citations and Licensing
-*MIT License*
+
+Cited Works:
+
+- https://www.w3schools.com/css/css3_animations.asp
+
+
+<sub>*MIT License*
 
 *Copyright (c) 2022 Matthew Redzinski*
 
@@ -47,5 +53,5 @@ Overall, there's a few key things I learned about web page development throughou
 *AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER*
 *LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,*
 *OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE*
-*SOFTWARE.*
+*SOFTWARE.*</sub>
 
