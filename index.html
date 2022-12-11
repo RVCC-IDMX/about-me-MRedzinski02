@@ -50,7 +50,7 @@
         <ul>
            <li><a href="#bio" class = "nav-links">Bio</a></li>
            <li><a href="#gallery" class = "nav-links">The Gallery</a></li>
-           <li><a href="lit" class = "nav-links">Dracula</a></li>
+           <li><a href="lit" class = "nav-links">CSS Animation (Research)</a></li>
            <li><a href="contact" class = "nav-links">Contact Us</a></li>
         </ul>
         </div>
@@ -144,17 +144,94 @@
     
 </section>
 
-<section id = "lit" >
+<article id = "lit" >
 
-    <h2>Dracula</h2>
+    <h2>Blog Post- CSS Animation</h2>
 
     <div>
 <em><strong>
-        <p>18 August.--I am happy to-day, and write sitting on the seat in the churchyard. Lucy is ever so much better. Last night she slept well all night, and did not disturb me once. The roses seem coming back already to her cheeks, though she is still sadly pale and wan-looking. If she were in any way anæmic I could understand it, but she is not. She is in gay spirits and full of life and cheerfulness. All the morbid reticence seems to have passed from her, and she has just reminded me, as if I needed any reminding, of that night, and that it was here, on this very seat, I found her asleep. As she told me she tapped playfully with the heel of her boot on the stone slab and said:--</p>
+<!-- RESEARCH 500 WORDS -->        
+<p>
 
-        <p>"My poor little feet didn't make much noise then! I daresay poor old Mr. Swales would have told me that it was because I didn't want to wake up Geordie." As she was in such a communicative humour, I asked her if she had dreamed at all that night. Before she answered, that sweet, puckered look came into her forehead, which Arthur--I call him Arthur from her habit--says he loves; and, indeed, I don't wonder that he does. Then she went on in a half-dreaming kind of way, as if trying to recall it to herself:--</p>
-    
-        <p>"I didn't quite dream; but it all seemed to be real. I only wanted to be here in this spot--I don't know why, for I was afraid of something--I don't know what. I remember, though I suppose I was asleep, passing through the streets and over the bridge. A fish leaped as I went by, and I leaned over to look at it, and I heard a lot of dogs howling--the whole town seemed as if it must be full of dogs all howling at once--as I went up the steps. Then I had a vague memory of something long and dark with red eyes, just as we saw in the sunset, and something very sweet and very bitter all around me at once; and then I seemed sinking into deep green water, and there was a singing in my ears, as I have heard there is to drowning men; and then everything seemed passing away from me; my soul seemed to go out from my body and float about the air. I seem to remember that once the West Lighthouse was right under me, and then there was a sort of agonising feeling, as if I were in an earthquake, and I came back and found you shaking my body. I saw you do it before I felt you."</p>
+While reading the instructions for the Final, I actually found something that was possible to do in css without knowing it existed before- CSS animation! At first, I didn't think they
+meant it <em>literally</em> when they used the term "animation," but it actually is legitimate animation, keyframes and all, not just an illusion. There are some main elements that allow
+CSS animation to function, including: <em><strong>keyframes, animation-name, animation-duration, animation-delay, animation-iteration-count, animation-direction, animation-timing-function, 
+    animation-fill-mode, and animation. Two of the most important elements are keyframes and animation-duration- It's the animator's way of telling the program how many frames it should take to change an element 
+from form A to form B. More keyframes makes the change take more time, and will appear slower, while less keyframes make the change more spontaneous and instant. Animation-delay determines 
+how many frames will pass before the animation actually begins.</strong></em>
+</p>
+
+<section id = anim></section>
+
+<p>
+See how the square takes a few seconds to start moving and changing color? <em>That's because there's a two second delay on the animation before it begins.</em>
+</p>
+
+<p>
+Animation-iteration-count is a fancy way of saying how many times the animation will loop.    
+</p>
+
+<section id = anim2></section>
+
+<p>
+Because this animation is set to have infinite iterations, it's stuck on a permanent loop. It will continue to move from side to side forever, using the same amount of keyframes everytime.
+I find it a little strange that infinite looping is not the default setting for CSS animations, considering that smooth, repeated movements are what give life to the backgrounds of most 
+websites nowadays, but I can see why it gives you the option rather than serving it as the default, there's more freedom that way.
+</p>
+
+<p>
+This is where CSS animation elements begin to become a bit more challenging and complex. Starting with animation-direction, this element gives you the ability to reverse or alternate 
+the path that you set with your animation. The reverse option sends the animation backwards, while the alternate option sends the animation forward for one iteration, then backwards for the next, 
+continuing for however many iterations the programmer has set.     
+</p>
+
+<section id = anim3></section>
+
+<p>
+In this example, the animation is set to have a reversed alternate direction. Because of this, the animation above it will sync up every other iteration, and then split off during the next.
+</p>
+
+<p>
+Animation-timing-function is what makes smooth CSS animation possible. This element alters the speed of the animation at the start and end points to allow for a more smooth, less spontaneous 
+sense of movement (or, if you use the linear option, it does the opposite, and makes the animation much more static and inorganic). Below is an example of eased timing, and the one afterwards is linear.
+</p>
+
+<section id = anim4a></section>
+<section id = anim4b></section>
+
+<p>
+Linear timing makes the animation crash back and forth, and appears much less passive than the smoothness of eased CSS animation. In most cases, CSS animations are eased, and it's even
+eased as default.    
+</p>
+
+<p>
+Animation-fill-mode determines how a certain object will be handled once it has concluded its animation. Typically, CSS animations do not affect an element's appearance or style once 
+the animation has concluded, unless animation-fill-mode is used. The forwards option keeps the object as it was when the animation ended, while the backwards option keeps it as it was 
+before the animation began.
+</p>
+
+<section id = anim5></section>
+
+<p>In this animation, the backwards option is used to make the object go back to its original color once the animation concluded. Obviously, if the iteration count was set to infinite, 
+    this setting would not work or need to be used at all, since the animation will never end and there will be no point in setting the object's appearance after the animation ends.
+</p>
+
+<!--finale animation-->
+<section id = anim6a></section>
+<section id = anim6b></section>
+<section id = anim6c></section>
+<section id = anim6d></section>
+<section id = anim6e></section>
+<section id = anim6f></section>
+
+<p>When working together and using all different elements of CSS animation, you can make really simple, stunning visual effects! This animation was used using only what was previously discussed. 
+    CSS animation is able to give life to an otherwise static form of code. Although video embedding and media inclusion can help with this, using the actual HTML itself to create organic, moving 
+    visual effects is the most effective way to bring life to a webpage. It's extremely simple to do, and can really make a difference in the long run, so it's worth implementing whenever possible. 
+</p>
+
+
+
+
 </em></strong>
     </div>
 
