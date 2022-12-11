@@ -31,6 +31,8 @@ Overall, there's a few key things I learned about web page development throughou
 Cited Works:
 
 - https://www.w3schools.com/css/css3_animations.asp
+- https://animate.style/
+- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations
 
 
 <sub>*MIT License*
